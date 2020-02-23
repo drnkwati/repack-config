@@ -1,0 +1,33 @@
+{
+    "name": "drnkwati/repack-config",
+    "description": "PHP 5.3 Config package.",
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "Taylor Otwell",
+        "email": "taylorotwell@gmail.com"
+    },
+    {
+        "name": "Divine Nkwati",
+        "email": "drnkwati@gmail.com"
+    }],
+    "require":
+    {
+        "php": ">=5.3"
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Repack\\Config\\": "src"
+        }
+    },
+    "extra":
+    {
+        "branch-alias":
+        {
+            "dev-master": "5.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
