@@ -1,16 +1,7 @@
 <?php
-
 namespace Repack\Config;
 
-if (interface_exists('\Illuminate\Contracts\Config\Repository')) {
-    interface ConfigContract extends \Illuminate\Contracts\Config\Repository
-    {}
-} else {
-    interface ConfigContract
-    {}
-}
-
-class Repository implements \ArrayAccess, ConfigContract
+class Repository implements \ArrayAccess
 {
     /**
      * All of the configuration items.

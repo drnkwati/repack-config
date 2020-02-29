@@ -22,6 +22,10 @@
             "Repack\\Config\\": "src"
         }
     },
+    "suggest":
+    {
+        "illuminate/contracts": "Required for usage with illuminate packages."
+    },
     "extra":
     {
         "branch-alias":
